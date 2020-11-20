@@ -4,6 +4,7 @@
 
 plugins {
     id 'org.mage.java-conventions'
+   id 'java'
 }
 
 dependencies {

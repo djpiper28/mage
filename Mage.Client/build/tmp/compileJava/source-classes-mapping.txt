@@ -1,0 +1,2 @@
+org/mage/plugins/card/dl/beans/package-info.java
+ org.mage.plugins.card.dl.beans.package-info

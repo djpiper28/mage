@@ -1,0 +1,4 @@
+org/mage/plugins/counter/CounterBean.java
+ org.mage.plugins.counter.CounterBean
+org/mage/plugins/counter/CounterPluginImpl.java
+ org.mage.plugins.counter.CounterPluginImpl

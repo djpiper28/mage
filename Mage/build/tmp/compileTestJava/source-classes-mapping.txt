@@ -1,0 +1,42 @@
+mage/cards/decks/importer/MtgjsonDeckImportTest.java
+ mage.cards.decks.importer.MtgjsonDeckImportTest
+ mage.cards.decks.importer.MtgjsonDeckImportTest$1
+mage/cards/decks/exporter/XmageDeckExporterTest.java
+ mage.cards.decks.exporter.XmageDeckExporterTest
+mage/cards/decks/importer/CodDeckImportTest.java
+ mage.cards.decks.importer.CodDeckImportTest
+ mage.cards.decks.importer.CodDeckImportTest$1
+mage/cards/decks/importer/DraftLogImporterTest.java
+ mage.cards.decks.importer.DraftLogImporterTest
+ mage.cards.decks.importer.DraftLogImporterTest$1
+mage/WatcherTest.java
+ mage.WatcherTest
+ mage.WatcherTest$TestWatcher
+mage/ManaSymbolTest.java
+ mage.ManaSymbolTest
+mage/cards/decks/exporter/MtgOnlineDeckExporterTest.java
+ mage.cards.decks.exporter.MtgOnlineDeckExporterTest
+mage/cards/decks/importer/O8dDeckImportTest.java
+ mage.cards.decks.importer.O8dDeckImportTest
+ mage.cards.decks.importer.O8dDeckImportTest$1
+mage/cards/decks/importer/MtgaImporterTest.java
+ mage.cards.decks.importer.MtgaImporterTest
+ mage.cards.decks.importer.MtgaImporterTest$1
+mage/ManaTest.java
+ mage.ManaTest
+mage/cards/decks/importer/DecDeckImportTest.java
+ mage.cards.decks.importer.DecDeckImportTest
+ mage.cards.decks.importer.DecDeckImportTest$1
+mage/counters/CounterTest.java
+ mage.counters.CounterTest
+mage/cards/decks/importer/MwsDeckImportTest.java
+ mage.cards.decks.importer.MwsDeckImportTest
+ mage.cards.decks.importer.MwsDeckImportTest$1
+mage/cards/decks/importer/TestDeckChecker.java
+ mage.cards.decks.importer.TestDeckChecker
+mage/cards/decks/importer/FakeCardLookup.java
+ mage.cards.decks.importer.FakeCardLookup
+ mage.cards.decks.importer.FakeCardLookup$1
+ mage.cards.decks.importer.FakeCardLookup$2
+mage/ContinuousEffectImplTest.java
+ mage.ContinuousEffectImplTest

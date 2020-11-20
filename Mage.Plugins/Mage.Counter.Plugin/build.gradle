@@ -4,10 +4,13 @@
 
 plugins {
     id 'org.mage.java-conventions'
+    id 'java'
 }
 
 dependencies {
+    implementation project(':mage')
     implementation project(':mage-common')
+    implementation 'com.googlecode.jspf:jspf-core:0.9.1'
     compileOnly 'log4j:log4j:1.2.17'
 }
 

@@ -3,14 +3,29 @@
  */
 
 plugins {
+    id 'java'
     id 'org.mage.java-conventions'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+}
+
+apply plugin: "com.github.johnrengelman.shadow" 
+   
+javafx {
+    version = "15.0.1"
+    modules = [ 'javafx.base', 'javafx.controls', 'javafx.fxml', 'javafx.graphics',
+                'javafx.media', 'javafx.swing', 'javafx.web' ]
+    configuration = 'compileOnly'
 }
 
 dependencies {
     implementation project(':mage')
     implementation project(':mage-common')
-    implementation project(':mage-deck-constructed')
+    implementation project(':mage-server-plugins')
+    implementation project(':mage-counter-plugin')
+    implementation 'com.j256.ormlite:ormlite-android:4.9'
     implementation 'com.googlecode.jspf:jspf-core:0.9.1'
+    implementation 'com.google.code.gson:gson:2.8.6'
     implementation 'log4j:log4j:1.2.17'
     implementation 'org.slf4j:slf4j-log4j12:1.8.0-beta2'
     implementation 'net.sf.trove4j:trove4j:3.0.3'
@@ -32,7 +47,6 @@ dependencies {
     implementation 'org.apache.xmlgraphics:batik-transcoder:1.13'
     implementation 'org.ocpsoft.prettytime:prettytime:4.0.5.Final'
     implementation 'org.unbescape:unbescape:1.1.6.RELEASE'
-    runtimeOnly project(':mage-counter-plugin')
     testImplementation 'junit:junit:4.13'
 }
 

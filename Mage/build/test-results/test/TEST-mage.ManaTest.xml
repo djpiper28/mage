@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mage.ManaTest" tests="45" skipped="0" failures="0" errors="0" timestamp="2020-11-20T09:32:40" hostname="danny-manjaro-pc" time="0.018">
+  <properties/>
+  <testcase name="shouldCreateManaFromBlackColoredManaSymbol" classname="mage.ManaTest" time="0.003"/>
+  <testcase name="shouldReturnString" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldSubtractCost" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldSubtractMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldCreateBlackMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldNotAllowNegativeIntegers" classname="mage.ManaTest" time="0.003"/>
+  <testcase name="shouldCreateColorlessMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldNotCreateManaFromNullColoredManaSymbol" classname="mage.ManaTest" time="0.004"/>
+  <testcase name="shouldAddMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldReturnCount" classname="mage.ManaTest" time="0.001"/>
+  <testcase name="shouldGetDifferentColors" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldCreateManaFromWhiteColoredManaSymbol" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldGetColorByColoredManaSymbol" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldNotAllowNegativeBlackMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldIncreaseRedMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldIncreaseColorlessMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldCreateGreenMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldCreateBlueMana" classname="mage.ManaTest" time="0.001"/>
+  <testcase name="shouldSetManaFromType" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldGetColorByManaType" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldSetToMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldCreateManaFromIntegers" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldNotAllowNegativeGreenMana" classname="mage.ManaTest" time="0.001"/>
+  <testcase name="shouldCreateManaFromCopy" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldCreateWhiteMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldReturnCopy" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldThrowExceptionOnUnavailableColorless" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldNotAllowNegativeWhiteMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldCreateManaFromGreenColoredManaSymbol" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldNotSetManaLessThanZero" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldIncreaseBlackMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldCreateGenericMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldNotAllowNegativeColorlessMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldNotAllowNullCopyConstructor" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldHaveEqualManaValue" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldNotAllowNegativeRedMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldIncreaseGreenMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldCreateManaFromRedColoredManaSymbol" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldUseExistingManaToPayColorless" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldCreateRedMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldNotAllowNegativeBlueMana" classname="mage.ManaTest" time="0.001"/>
+  <testcase name="shouldCreateManaFromBlueColoredManaSymbol" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldClearMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldIncreaseWhiteMana" classname="mage.ManaTest" time="0.0"/>
+  <testcase name="shouldIncreaseBlueMana" classname="mage.ManaTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (mage.Mana).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>

@@ -1,7 +1,29 @@
+import org.gradle.internal.os.OperatingSystem
+
 plugins {
     id 'java'
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.0.9'
+    id 'org.mage.java-conventions'
+    //id "com.vanniktech.dependency.graph.generator" version "0.5.0"
+}
+
+project.ext.lwjglVersion = "3.2.4-SNAPSHOT"
+project.ext.jomlVersion = "1.9.25"
+
+switch (OperatingSystem.current()) {
+    case OperatingSystem.LINUX:
+        def osArch = System.getProperty("os.arch")
+        project.ext.lwjglNatives = osArch.startsWith("arm") || osArch.startsWith("aarch64")
+                ? "natives-linux-${osArch.contains("64") || osArch.startsWith("armv8") ? "arm64" : "arm32"}"
+                : "natives-linux"
+        break
+    case OperatingSystem.MAC_OS:
+        project.ext.lwjglNatives = "natives-macos"
+        break
+    case OperatingSystem.WINDOWS:
+        project.ext.lwjglNatives = System.getProperty("os.arch").contains("64") ? "natives-windows" : "natives-windows-x86"
+        break
 }
 
 group 'org.example'
@@ -17,10 +39,46 @@ javafx {
 
 repositories {
     mavenCentral()
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    //SQLite database for fast card searching
     implementation group:'org.xerial', name:'sqlite-jdbc', version:'3.8.11.2'
+    //GSon for card parsing
     implementation 'com.google.code.gson:gson:2.8.6'
+    //JSoup for internet stuffs
+    implementation 'org.jsoup:jsoup:1.13.1'
+
+    //Mage - add deps
+    implementation project(':mage')
+    implementation project(':mage-common')
+    implementation project(':mage-server-plugins')
+    implementation platform("org.lwjgl:lwjgl-bom:$lwjglVersion")
+
+    //lwjgl for battlefield rendering
+    implementation "org.lwjgl:lwjgl"
+    implementation "org.lwjgl:lwjgl-assimp"
+    implementation "org.lwjgl:lwjgl-glfw"
+    //jawt to put the battlefield then into the javafx awt containers. Seems kidna jank
+    implementation "org.lwjgl:lwjgl-jawt"
+    implementation "org.lwjgl:lwjgl-lz4"
+    implementation "org.lwjgl:lwjgl-nfd"
+    implementation "org.lwjgl:lwjgl-openal"
+    implementation "org.lwjgl:lwjgl-opengl"
+    implementation "org.lwjgl:lwjgl-shaderc"
+    implementation "org.lwjgl:lwjgl-stb"
+    runtimeOnly "org.lwjgl:lwjgl::$lwjglNatives"
+    runtimeOnly "org.lwjgl:lwjgl-assimp::$lwjglNatives"
+    runtimeOnly "org.lwjgl:lwjgl-glfw::$lwjglNatives"
+    runtimeOnly "org.lwjgl:lwjgl-lz4::$lwjglNatives"
+    runtimeOnly "org.lwjgl:lwjgl-nfd::$lwjglNatives"
+    runtimeOnly "org.lwjgl:lwjgl-openal::$lwjglNatives"
+    runtimeOnly "org.lwjgl:lwjgl-opengl::$lwjglNatives"
+    runtimeOnly "org.lwjgl:lwjgl-shaderc::$lwjglNatives"
+    runtimeOnly "org.lwjgl:lwjgl-stb::$lwjglNatives"
+    implementation "org.joml:joml:${jomlVersion}"
 }
+
+description = "JavaFX Mage Client"

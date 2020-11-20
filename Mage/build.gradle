@@ -4,6 +4,8 @@
 
 plugins {
     id 'org.mage.java-conventions'
+    id "com.google.protobuf" version "0.8.10"
+    id 'java'
 }
 
 dependencies {

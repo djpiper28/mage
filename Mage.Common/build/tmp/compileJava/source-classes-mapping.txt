@@ -1,0 +1,240 @@
+mage/view/SimpleCardView.java
+ mage.view.SimpleCardView
+mage/components/ImagePanel.java
+ mage.components.ImagePanel
+ mage.components.ImagePanel$1
+mage/utils/ActionWithNullNegativeResult.java
+ mage.utils.ActionWithNullNegativeResult
+mage/view/CommandObjectView.java
+ mage.view.CommandObjectView
+mage/view/RoomUsersView.java
+ mage.view.RoomUsersView
+mage/view/AbilityView.java
+ mage.view.AbilityView
+mage/remote/interfaces/Replays.java
+ mage.remote.interfaces.Replays
+mage/cards/CardDimensions.java
+ mage.cards.CardDimensions
+mage/remote/interfaces/Feedback.java
+ mage.remote.interfaces.Feedback
+mage/utils/ActionWithUUIDResult.java
+ mage.utils.ActionWithUUIDResult
+mage/db/EntityManager.java
+ mage.db.EntityManager
+mage/view/PermanentView.java
+ mage.view.PermanentView
+mage/view/TournamentPlayerView.java
+ mage.view.TournamentPlayerView
+mage/view/CombatGroupView.java
+ mage.view.CombatGroupView
+mage/remote/interfaces/ChatSession.java
+ mage.remote.interfaces.ChatSession
+mage/view/EmblemView.java
+ mage.view.EmblemView
+mage/interfaces/plugin/ThemePlugin.java
+ mage.interfaces.plugin.ThemePlugin
+mage/view/DraftPickView.java
+ mage.view.DraftPickView
+mage/db/Statistics.java
+ mage.db.Statistics
+ mage.db.Statistics$1
+mage/view/UserView.java
+ mage.view.UserView
+mage/utils/CompressUtil.java
+ mage.utils.CompressUtil
+mage/view/GameView.java
+ mage.view.GameView
+mage/db/EntityManagerTest.java
+ mage.db.EntityManagerTest
+mage/cards/TextPopup.java
+ mage.cards.TextPopup
+mage/db/model/Log.java
+ mage.db.model.Log
+mage/interfaces/Action.java
+ mage.interfaces.Action
+mage/utils/ActionWithTableViewResult.java
+ mage.utils.ActionWithTableViewResult
+mage/remote/MageVersionException.java
+ mage.remote.MageVersionException
+mage/cards/MageCard.java
+ mage.cards.MageCard
+mage/cards/CardBorder.java
+ mage.cards.CardBorder
+mage/remote/traffic/ZippedObjectImpl.java
+ mage.remote.traffic.ZippedObjectImpl
+mage/view/SelectableObjectView.java
+ mage.view.SelectableObjectView
+mage/view/RoundView.java
+ mage.view.RoundView
+mage/remote/interfaces/GameTypes.java
+ mage.remote.interfaces.GameTypes
+mage/utils/MageVersion.java
+ mage.utils.MageVersion
+mage/view/GameClientMessage.java
+ mage.view.GameClientMessage
+mage/remote/MageRemoteException.java
+ mage.remote.MageRemoteException
+mage/view/ChatMessage.java
+ mage.view.ChatMessage
+ mage.view.ChatMessage$MessageColor
+ mage.view.ChatMessage$MessageType
+ mage.view.ChatMessage$SoundToPlay
+mage/view/ExileView.java
+ mage.view.ExileView
+mage/view/UsersView.java
+ mage.view.UsersView
+mage/view/AbilityPickerView.java
+ mage.view.AbilityPickerView
+mage/view/UserRequestMessage.java
+ mage.view.UserRequestMessage
+mage/interfaces/PluginException.java
+ mage.interfaces.PluginException
+mage/view/DraftView.java
+ mage.view.DraftView
+mage/view/GameTypeView.java
+ mage.view.GameTypeView
+mage/view/UserDataView.java
+ mage.view.UserDataView
+mage/remote/CustomThreadPool.java
+ mage.remote.CustomThreadPool
+mage/view/DeckView.java
+ mage.view.DeckView
+mage/utils/properties/PropertyKeys.java
+ mage.utils.properties.PropertyKeys
+mage/utils/timer/PriorityTimer.java
+ mage.utils.timer.PriorityTimer
+ mage.utils.timer.PriorityTimer$States
+mage/cards/MagePermanent.java
+ mage.cards.MagePermanent
+mage/utils/DeckBuilder.java
+ mage.utils.DeckBuilder
+ mage.utils.DeckBuilder$MageScoredCard
+mage/view/RevealedView.java
+ mage.view.RevealedView
+mage/constants/Constants.java
+ mage.constants.Constants
+ mage.constants.Constants$Option
+mage/remote/interfaces/Testable.java
+ mage.remote.interfaces.Testable
+mage/utils/properties/PropertiesUtil.java
+ mage.utils.properties.PropertiesUtil
+mage/view/TournamentGameView.java
+ mage.view.TournamentGameView
+mage/components/CardInfoPane.java
+ mage.components.CardInfoPane
+mage/filters/MageBufferedImageOp.java
+ mage.filters.MageBufferedImageOp
+mage/view/LookedAtView.java
+ mage.view.LookedAtView
+mage/view/StackAbilityView.java
+ mage.view.StackAbilityView
+mage/view/TableClientMessage.java
+ mage.view.TableClientMessage
+mage/interfaces/ServerState.java
+ mage.interfaces.ServerState
+mage/remote/Connection.java
+ mage.remote.Connection
+ mage.remote.Connection$ProxyType
+mage/view/CounterView.java
+ mage.view.CounterView
+mage/view/PlaneView.java
+ mage.view.PlaneView
+mage/view/GameEndView.java
+ mage.view.GameEndView
+mage/view/SimpleCardsView.java
+ mage.view.SimpleCardsView
+mage/cards/action/ActionCallback.java
+ mage.cards.action.ActionCallback
+mage/remote/interfaces/Connect.java
+ mage.remote.interfaces.Connect
+mage/remote/interfaces/PlayerActions.java
+ mage.remote.interfaces.PlayerActions
+mage/db/model/Feedback.java
+ mage.db.model.Feedback
+mage/interfaces/rate/RateCallback.java
+ mage.interfaces.rate.RateCallback
+mage/cards/action/impl/EmptyCallback.java
+ mage.cards.action.impl.EmptyCallback
+mage/interfaces/plugin/CardPlugin.java
+ mage.interfaces.plugin.CardPlugin
+mage/view/CommanderView.java
+ mage.view.CommanderView
+mage/view/CardsView.java
+ mage.view.CardsView
+ mage.view.CardsView$1
+mage/components/ImagePanelStyle.java
+ mage.components.ImagePanelStyle
+mage/interfaces/plugin/CounterPlugin.java
+ mage.interfaces.plugin.CounterPlugin
+mage/remote/interfaces/ClientData.java
+ mage.remote.interfaces.ClientData
+mage/utils/ThreadUtils.java
+ mage.utils.ThreadUtils
+ mage.utils.ThreadUtils$1
+ mage.utils.ThreadUtils$2
+ mage.utils.ThreadUtils$3
+mage/view/PlayerView.java
+ mage.view.PlayerView
+mage/remote/ActionData.java
+ mage.remote.ActionData
+ mage.remote.ActionData$CustomExclusionStrategy
+mage/remote/traffic/ZippedObject.java
+ mage.remote.traffic.ZippedObject
+mage/interfaces/MageClient.java
+ mage.interfaces.MageClient
+mage/interfaces/ActionWithResult.java
+ mage.interfaces.ActionWithResult
+mage/view/TournamentTypeView.java
+ mage.view.TournamentTypeView
+mage/view/ManaPoolView.java
+ mage.view.ManaPoolView
+mage/utils/CardColorUtil.java
+ mage.utils.CardColorUtil
+mage/remote/interfaces/GamePlay.java
+ mage.remote.interfaces.GamePlay
+mage/remote/SessionImpl.java
+ mage.remote.MageAuthenticator
+ mage.remote.SessionImpl
+ mage.remote.SessionImpl$1
+ mage.remote.SessionImpl$2
+ mage.remote.SessionImpl$3
+ mage.remote.SessionImpl$4
+ mage.remote.SessionImpl$5
+ mage.remote.SessionImpl$6
+ mage.remote.SessionImpl$CallbackHandler
+ mage.remote.SessionImpl$ClientConnectionListener
+ mage.remote.SessionImpl$RemotingTask
+ mage.remote.SessionImpl$RemotingTask$1
+ mage.remote.SessionImpl$SessionState
+mage/interfaces/callback/ClientCallbackMethod.java
+ mage.interfaces.callback.ClientCallbackMethod
+mage/cards/action/TransferData.java
+ mage.cards.action.TransferData
+mage/view/MatchView.java
+ mage.view.MatchView
+mage/view/DraftClientMessage.java
+ mage.view.DraftClientMessage
+mage/remote/Session.java
+ mage.remote.Session
+mage/interfaces/MageServer.java
+ mage.interfaces.MageServer
+mage/view/TournamentView.java
+ mage.view.TournamentView
+mage/utils/ActionWithBooleanResult.java
+ mage.utils.ActionWithBooleanResult
+mage/view/SeatView.java
+ mage.view.SeatView
+mage/view/TableView.java
+ mage.view.TableView
+ mage.view.TableView$1
+mage/view/CardView.java
+ mage.view.CardView
+ mage.view.CardView$1
+mage/interfaces/callback/CallbackClient.java
+ mage.interfaces.callback.CallbackClient
+mage/interfaces/callback/ClientCallback.java
+ mage.interfaces.callback.ClientCallback
+mage/remote/interfaces/ServerState.java
+ mage.remote.interfaces.ServerState
+mage/utils/StreamUtils.java
+ mage.utils.StreamUtils

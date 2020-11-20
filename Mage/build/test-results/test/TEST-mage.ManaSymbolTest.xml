@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mage.ManaSymbolTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2020-11-20T09:32:39" hostname="danny-manjaro-pc" time="0.006">
+  <properties/>
+  <testcase name="shouldCreateWPhyrexianMana" classname="mage.ManaSymbolTest" time="0.001"/>
+  <testcase name="shouldCreateHybridWBManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateHybridWUManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateMonoColoredHybridGManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateHybridRWManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateMonoColoredHybridBManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateWhiteManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateUPhyrexianMana" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateMonoColoredHybridUManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateHybridURManaSymbol" classname="mage.ManaSymbolTest" time="0.001"/>
+  <testcase name="shouldCreateHybridBGManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateMonoColoredHybridWManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateBPhyrexianMana" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateGreenManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateNumericManaSymbol" classname="mage.ManaSymbolTest" time="0.001"/>
+  <testcase name="shouldCreateMonoColoredHybridRManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateGenericManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateRPhyrexianMana" classname="mage.ManaSymbolTest" time="0.001"/>
+  <testcase name="shouldCreateSnowMana" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateHybridGUManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateRedManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateHybridBRManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateHybridGWManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateHybridRGManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateGPhyrexianMana" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateBlueManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateBlackManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <testcase name="shouldCreateHybridUBManaSymbol" classname="mage.ManaSymbolTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -4,6 +4,7 @@
 
 plugins {
     id 'org.mage.java-conventions'
+    id 'java'
 }
 
 dependencies {
@@ -27,14 +28,6 @@ dependencies {
     implementation 'com.sun.jersey.contribs:jersey-multipart:1.19.4'
     implementation 'org.xerial:sqlite-jdbc:3.32.3.2'
     runtimeOnly project(':mage-player-ai')
-    runtimeOnly project(':mage-deck-constructed')
-    runtimeOnly project(':mage-deck-limited')
-    runtimeOnly project(':mage-game-commanderduel')
-    runtimeOnly project(':mage-game-brawlduel')
-    runtimeOnly project(':mage-game-commanderfreeforall')
-    runtimeOnly project(':mage-game-brawlfreeforall')
-    runtimeOnly project(':mage-game-freeforall')
-    runtimeOnly project(':mage-game-twoplayerduel')
     runtimeOnly project(':mage-player-human')
     runtimeOnly project(':mage-player-aiminimax')
     runtimeOnly project(':mage-player-ai-ma')
@@ -43,16 +36,7 @@ dependencies {
     runtimeOnly project(':mage-tournament-sealed')
     runtimeOnly project(':mage-tournament-constructed')
     runtimeOnly project(':mage-player-ai-draftbot')
-    runtimeOnly project(':mage-game-tinyleadersduel')
-    runtimeOnly project(':mage-game-canadianhighlanderduel')
-    runtimeOnly project(':mage-game-pennydreadfulcommanderfreeforall')
-    runtimeOnly project(':mage-game-freeformcommanderfreeforall')
-    runtimeOnly project(':mage-game-freeformunlimitedcommander')
-    runtimeOnly project(':mage-game-freeformcommanderduel')
-    runtimeOnly project(':mage-game-oathbreakerduel')
-    runtimeOnly project(':mage-game-oathbreakerfreeforall')
-    runtimeOnly project(':mage-game-momirduel')
-    runtimeOnly project(':mage-game-momirfreeforall')
+    runtimeOnly project(':mage-server-plugins')
     testImplementation 'junit:junit:4.13'
 }
 

@@ -4,11 +4,15 @@
 
 plugins {
     id 'org.mage.java-conventions'
+    id 'java'
 }
 
 dependencies {
     implementation project(':mage-common')
     implementation 'org.swinglabs:swingx:1.6.1'
+    implementation 'log4j:log4j:1.2.17'
+    implementation 'org.slf4j:slf4j-log4j12:1.8.0-beta2'
+    implementation 'com.j256.ormlite:ormlite-jdbc:5.1'
     testImplementation 'junit:junit:4.13'
 }
 

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mage.ContinuousEffectImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-20T09:32:39" hostname="danny-manjaro-pc" time="0.007">
+  <properties/>
+  <testcase name="isDependentTo" classname="mage.ContinuousEffectImplTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

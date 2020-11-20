@@ -1,0 +1,13 @@
+plugins {
+   id 'java'
+   id 'org.mage.java-conventions'
+   id "com.github.johnrengelman.shadow" version "6.1.0"
+}
+
+allprojects {
+   group = 'mage'
+   version = '1.4.46'
+   apply plugin: 'java-library'
+   apply plugin: "com.github.johnrengelman.shadow" 
+   apply plugin: 'org.mage.java-conventions'
+}
